@@ -1939,6 +1939,11 @@ commander@7.1.0:
   resolved "https://registry.npmjs.org/commander/-/commander-7.1.0.tgz#f2eaecf131f10e36e07d894698226e36ae0eb5ff"
   integrity sha512-pRxBna3MJe6HKnBGsDyMv8ETbptw3axEdYHoqNh7gu5oDcew8fs0xnivZGm06Ogk8zGAJ9VX+OPEr2GXEQK4dg==
 
+commander@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.npmjs.org/commander/-/commander-10.0.0.tgz#71797971162cd3cf65f0b9d24eb28f8d303acdf1"
+  integrity sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==
+
 commander@^2.20.3:
   version "2.20.3"
   resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -3249,6 +3254,11 @@ gensequence@^3.0.1, gensequence@^3.1.1:
   resolved "https://registry.npmjs.org/gensequence/-/gensequence-3.1.1.tgz#95c1afc7c0680f92942c17f2d6f83f3d26ea97af"
   integrity sha512-ys3h0hiteRwmY6BsvSttPmkhC0vEQHPJduANBRtH/dlDPZ0UBIb/dXy80IcckXyuQ6LKg+PloRqvGER9IS7F7g==
 
+gensequence@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.npmjs.org/gensequence/-/gensequence-4.0.3.tgz#69ce05b4d7507ee667d9641377a0df834cdc350b"
+  integrity sha512-izr+MKqJKjexkvLiPGhW96elQX8TuUR/su/xzILxjqzU1RDz1n1ZbqwDUnNFaRcq0gFR3oQfNH2JOH4Je1x/QA==
+
 get-caller-file@^2.0.5:
   version "2.0.5"
   resolved "https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
@@ -3762,6 +3772,15 @@ hunspell-reader@^5.19.7:
     commander "^9.1.0"
     fs-extra "^10.0.1"
     gensequence "^3.1.1"
+    iconv-lite "^0.6.3"
+
+hunspell-reader@^6.22.0:
+  version "6.22.0"
+  resolved "https://registry.npmjs.org/hunspell-reader/-/hunspell-reader-6.22.0.tgz#6ee6e500d3ca52c00a5adafa468b38114226a651"
+  integrity sha512-KRblpms1JBfWJPROX2kCmohH3zYCCT7sSGjc1mZi4Nw8Lu7C9YGWvUySjGMHI8E1UW/H9bKq0UcMGH80uQ1teQ==
+  dependencies:
+    commander "^10.0.0"
+    gensequence "^4.0.3"
     iconv-lite "^0.6.3"
 
 iconv-lite@^0.4.24:
