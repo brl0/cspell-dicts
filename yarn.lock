@@ -81,6 +81,11 @@
   resolved "https://registry.npmjs.org/@cspell/cspell-pipe/-/cspell-pipe-5.19.7.tgz#398bf6452ce83144f716b60f0f03bd8fb6f80774"
   integrity sha512-C2+qovrXyZtoM+IcyMuwwYieoGBwwnWORat+j7bkIkVHf6Pa9spxY3D1IdLt04PqWBKWKHb1g9KzJzw5grBqZw==
 
+"@cspell/cspell-pipe@^6.25.0":
+  version "6.25.0"
+  resolved "https://registry.npmjs.org/@cspell/cspell-pipe/-/cspell-pipe-6.25.0.tgz#338017285cd41888071bdfa1ae62b74262a72a12"
+  integrity sha512-RM9htwZXMy10O2GpzzoqnKZAx/zb90okhujfHI3M4wMIUfbhonqThE/tIls8YVcopQd4IjMsl2BZ6QjDZu72dQ==
+
 "@cspell/cspell-tools@^5.19.7":
   version "5.19.7"
   resolved "https://registry.npmjs.org/@cspell/cspell-tools/-/cspell-tools-5.19.7.tgz#ec32825b0e171df4991573d77cafe060295be093"
@@ -98,6 +103,11 @@
   version "5.19.7"
   resolved "https://registry.npmjs.org/@cspell/cspell-types/-/cspell-types-5.19.7.tgz#9888598b976451df61cc980f0b3cc74379d7a358"
   integrity sha512-xL9a0oE8kPQ/GCkE/bxE5DTCMTctCpk7tdrhYG26wVbMK1VRGo8fv9w+vRVzXgTfF5jTxolEA1LTtfVBuik1MA==
+
+"@cspell/cspell-types@^6.25.0":
+  version "6.25.0"
+  resolved "https://registry.npmjs.org/@cspell/cspell-types/-/cspell-types-6.25.0.tgz#411e591058f979449ffb2c3b5b6b21bc5c319836"
+  integrity sha512-PDjaauhgSlEHN1zVuDnWOcxhAtVDmqMs8tlSHdhW5w9gRUpK3tsVWz8cdW/XE1nSvL9txo9cbfhyq3kzrDHgHQ==
 
 "@cspell/dict-en-gb@^1.1.33":
   version "1.1.33"
@@ -1939,6 +1949,11 @@ commander@7.1.0:
   resolved "https://registry.npmjs.org/commander/-/commander-7.1.0.tgz#f2eaecf131f10e36e07d894698226e36ae0eb5ff"
   integrity sha512-pRxBna3MJe6HKnBGsDyMv8ETbptw3axEdYHoqNh7gu5oDcew8fs0xnivZGm06Ogk8zGAJ9VX+OPEr2GXEQK4dg==
 
+commander@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.npmjs.org/commander/-/commander-10.0.0.tgz#71797971162cd3cf65f0b9d24eb28f8d303acdf1"
+  integrity sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==
+
 commander@^2.20.3:
   version "2.20.3"
   resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -3249,6 +3264,11 @@ gensequence@^3.0.1, gensequence@^3.1.1:
   resolved "https://registry.npmjs.org/gensequence/-/gensequence-3.1.1.tgz#95c1afc7c0680f92942c17f2d6f83f3d26ea97af"
   integrity sha512-ys3h0hiteRwmY6BsvSttPmkhC0vEQHPJduANBRtH/dlDPZ0UBIb/dXy80IcckXyuQ6LKg+PloRqvGER9IS7F7g==
 
+gensequence@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.npmjs.org/gensequence/-/gensequence-4.0.3.tgz#69ce05b4d7507ee667d9641377a0df834cdc350b"
+  integrity sha512-izr+MKqJKjexkvLiPGhW96elQX8TuUR/su/xzILxjqzU1RDz1n1ZbqwDUnNFaRcq0gFR3oQfNH2JOH4Je1x/QA==
+
 get-caller-file@^2.0.5:
   version "2.0.5"
   resolved "https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
@@ -3762,6 +3782,17 @@ hunspell-reader@^5.19.7:
     commander "^9.1.0"
     fs-extra "^10.0.1"
     gensequence "^3.1.1"
+    iconv-lite "^0.6.3"
+
+hunspell-reader@^6.25.0:
+  version "6.25.0"
+  resolved "https://registry.npmjs.org/hunspell-reader/-/hunspell-reader-6.25.0.tgz#887e3427bf486df2cde44d89c5221d1bf040dd85"
+  integrity sha512-TtfLIkFFNRL60UivzoQee2h00DtTtmrUGYnr+eq247mboaWd8HPFz+1EnNPpGdSvm+yqrXrQr1iJZeN6j4PkBw==
+  dependencies:
+    "@cspell/cspell-pipe" "^6.25.0"
+    "@cspell/cspell-types" "^6.25.0"
+    commander "^10.0.0"
+    gensequence "^4.0.3"
     iconv-lite "^0.6.3"
 
 iconv-lite@^0.4.24:
